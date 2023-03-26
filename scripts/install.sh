@@ -13,7 +13,7 @@ gen64() {
 }
 install_3proxy() {
    echo "installing 3proxy"
-   URL="http://3proxy.ru/0.8.6/3proxy-0.8.6.tgz"
+   URL="https://github.com/z3APA3A/3proxy/archive/0.9.3.tar.gz"
    wget $URL -O 3proxy-0.8.6.tgz
    tar -xvzf 3proxy-0.8.6.tgz
 
